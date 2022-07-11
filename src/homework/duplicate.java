@@ -1,32 +1,39 @@
 package homework;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class duplicate {
 	
 	public static void main(String[] args) {
 		
-	int arr[] = {1,2,3,3,4,4,5,6,7};
-	
-	int len = arr.length;
-	int temp[] = new int[arr.length];
-	
-	int j = 0;
+	Integer arr[] = {1,2,3,3,4,4,5,6,7};
 	
 	
-		for(int i = 0 ; i < len-1; i++) {
-			
-			if(arr[i]!= arr[i+1]) {
-				
-				temp[j++] = arr[i];
-				
-				
-			}
-		}
-		temp[j++] = arr[len-1];
+	ArrayList<Integer> list = new ArrayList<>(Arrays.asList(arr));
+	
+	List<Integer> unique = new ArrayList<>();
+	
+	for(Integer i : list) {
 		
-		for(int k = 0 ; k<j; k ++) {
+		System.out.println(i);
+		
+		if(!unique.contains(i)) {
 			
-			System.out.print(temp[k]);
+			unique.add(i);
+			
+			
 		}
 	}
-}
+	
+	System.out.println(unique);
+	
+	
+	
+		}
+	}
+
+
+
 

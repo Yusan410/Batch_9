@@ -16,6 +16,10 @@ public class Google {
 		
 		nur.ShowInfo();
 		
+		Employee ee = new Employee("Nur","SDET",833288,3000);
+		
+		ee.ShowInfo();
+		
 	}
 	
 	

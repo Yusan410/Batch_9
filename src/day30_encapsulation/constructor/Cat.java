@@ -21,6 +21,8 @@ public class Cat {
 		
 		breed = fbreed;
 		
+		
+		
 		age = fage;
 		name=fname;
 		color=fcolor;

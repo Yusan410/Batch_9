@@ -21,9 +21,10 @@ public class Bmwobject {
 		Toyota c2 = new Toyota("Camry","Black",2020,23000,26000);
 		System.out.println("----------------------------");
 		System.out.println(c2.toString());
-		System.out.println(!c2.isAfordbale);
+		System.out.println(c2.isAfordbale);
 		c2.drive();
 		c2.park();
+	
 		
 		
 	}

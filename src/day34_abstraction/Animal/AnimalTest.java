@@ -1,9 +1,11 @@
 package day34_abstraction.Animal;
 
+import java.util.Arrays;
+
 public class AnimalTest {
 	public static void main(String[] args) {
 		
-		//Animal a = new Animal();
+		//Animal a = new Animal(); // YOU CANT CREATE INSTANCE OF ABSTRACT CLASS
 		
 		//a.makesound();
 		//a.walk();
@@ -43,8 +45,13 @@ public class AnimalTest {
 				
 				System.out.println("++++++++++++++++++=");
 				
+			for(Animal a : animals) {
 				
 				
+				a.eat();
+				a.makesound();
+				a.walk();
+			}				
 				
 				
 			}

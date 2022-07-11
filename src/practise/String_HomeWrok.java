@@ -12,7 +12,7 @@ public class String_HomeWrok {
     	
     	if(Character.isAlphabetic(a)) {
     		
-    		System.out.println(a);
+    		System.out.print(a);
     	}
     }
     }

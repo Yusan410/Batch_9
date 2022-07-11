@@ -36,7 +36,7 @@ public class Recap {
 		
 		
 	}
-	//System.out.println(list1);	
+	System.out.println(list1);	
 	
 	
 	Iterator itr = list1.iterator();

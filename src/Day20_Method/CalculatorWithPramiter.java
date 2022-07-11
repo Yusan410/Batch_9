@@ -39,7 +39,7 @@ public class CalculatorWithPramiter {
 		int newelment = 9 ;
 		int expectarr[]= {1,3,5,7,9};
 		
-		int targetarr[]= new int [arr.length];
+		int targetarr[]= new int [arr.length+1];
 		System.out.println(Arrays.toString(targetarr));
 		for (int i = 0 ; i <arr.length;i++) {
 			targetarr[i]=arr[i];

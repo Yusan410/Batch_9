@@ -6,7 +6,7 @@ public class Wormup {
 		Wormup au = new Wormup();
 		
 		au.Hello("Smira");
-		au.Hello("Yusan");
+		au.Hello("Yusanaaa");
 		au.Hello("Tech");
 	}
 	public void Hello(String str) {

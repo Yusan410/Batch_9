@@ -1,5 +1,7 @@
 package practise;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Arrays;
 
 public class revrse {
@@ -23,7 +25,14 @@ public class revrse {
 			System.out.print(str.charAt(j));
 	
 			
+			LocalDate date= LocalDate.now();
 			
+			
+			
+			//System.out.println();
+			
+			System.out.println(date);
+		
 					}
 					
 				}

@@ -18,11 +18,11 @@ public void eat() {
 	
 }
 	
-//	public void makesound () {
+	public void makesound () {
 		
 		
-		//System.out.println("I am Dod , Woof");
-	//}
+		System.out.println("I am Dod , Woof");
+	}
 }
 
 

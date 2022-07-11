@@ -4,7 +4,7 @@ public class homework3 {
 	public static void main(String[] args) {
 		// write program extrac number to string   output 12345678
 		
-		String str = "ab123456cde78d";	
+		String str = "ab123456cde78d10";	
 		
 		//String output = str.replaceAll("[abcde]","");
 		//System.out.println(output);

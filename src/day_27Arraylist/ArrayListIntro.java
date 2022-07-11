@@ -16,6 +16,8 @@ public class ArrayListIntro {
 		names.add("Samira");
 
 		names.add("Dilbar");
+		
+		
 
 		System.out.println(names.size());
 		System.out.println(names.get(0));

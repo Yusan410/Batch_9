@@ -13,7 +13,7 @@ public class ExtracNumberFromString {
 		
 		String digit = "";
 		
-		String letter = "";
+		//String letter = "";
 		
 		char chars[] = str.toCharArray();
 		
@@ -22,7 +22,7 @@ public class ExtracNumberFromString {
 		
 		for(char c: chars) {
 			
-			if(Character.isLetter(c)) {
+			if(Character.isDigit(c)) {
 				
 				digit+=c;
 				

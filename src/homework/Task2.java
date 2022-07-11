@@ -25,7 +25,7 @@ public class Task2 {
 		
 		for(int i = 0 ; i < arr.length; i ++) {
 			
-			if(arr[i] == key) {
+			if(arr[i] == key2) {
 				
 				result = true;
 			}

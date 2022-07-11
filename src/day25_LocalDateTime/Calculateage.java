@@ -6,7 +6,7 @@ public static void main(String[] args) {
 	
 	
 	
-	String value = "80";  
+	String value = "23";  
 	 
 	
 	int a = Integer.parseInt(value);

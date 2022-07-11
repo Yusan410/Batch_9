@@ -16,7 +16,7 @@ public class Homework_15 {
 		
 	
 		
-		System.out.println(today.isBefore(day2));
+		System.out.println(today.isAfter(day2));
 		
 		
 

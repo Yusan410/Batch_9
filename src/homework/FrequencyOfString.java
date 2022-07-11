@@ -12,7 +12,7 @@ public class FrequencyOfString {
 	    */
 		
 		String input = "aaaaaaaabbbbcccccdddddd";
-		char strr = 'b';
+		char strr = 'c';
 		int frequncy = 0;
 		
 		
@@ -21,7 +21,7 @@ public class FrequencyOfString {
 		
 		for(int i = 0 ; i < input.length();i++) {
 			
-			if(input.charAt(i) == strr)
+			if(input.charAt(i)== strr)
 				
 				frequncy++;
 			

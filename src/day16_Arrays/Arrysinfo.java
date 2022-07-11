@@ -49,9 +49,11 @@ public class Arrysinfo {
 			
 			for (int i = cars.length-1; i >=0; i --) {
 				
-				
 				System.out.println(Arrays.toString(cars));
+				
+				//System.out.println(Arrays.toString(cars));
 			}
+			
 		}
 	
 		

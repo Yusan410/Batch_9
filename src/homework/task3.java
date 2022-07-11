@@ -18,7 +18,7 @@ public class task3 {
 		
 		int [] nums = new int[] {20,30,25,35,-16,60,-100};
 		
-		int avg = 0;
+		double avg = 0;
 		
 		for(int i = 0 ; i < nums.length; i ++) {
 			

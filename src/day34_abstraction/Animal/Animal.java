@@ -4,7 +4,7 @@ public abstract class Animal {
 	
 	
 	
-	
+	//abstract has method signutare no method body
 	
 	public void walk() {
 		
